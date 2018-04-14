@@ -14,7 +14,7 @@ public class PlayerHealth : MonoBehaviour
 
     bool isDead;
     bool damaged;
-
+    /*
 	// Use this for initialization
 	void Start ()
     {
@@ -72,5 +72,5 @@ public class PlayerHealth : MonoBehaviour
         //need an animation for death (anim.SetTrigger("Die"); )
         //audio clip for death?
         
-    }
+    }*/
 }
