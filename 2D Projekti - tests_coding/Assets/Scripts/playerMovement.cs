@@ -8,6 +8,7 @@ public class playerMovement : MonoBehaviour {
     private int playerDir;
     private bool grounded;
     public Rigidbody2D rb2d;
+    public int flowerCount;
 
 
 
@@ -54,6 +55,23 @@ public class playerMovement : MonoBehaviour {
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-        grounded = true;
+        if(collision.gameObject.CompareTag("building"))
+        {
+            print("grounded");
+            grounded = true; 
+        }
+
+
 	}
+	
+	private void OnTriggerExit2D(Collider2D collision)
+	{
+        if (collision.gameObject.CompareTag("flower"))
+        {
+            flowerCount++;
+
+        }
+	}
+
+
 }

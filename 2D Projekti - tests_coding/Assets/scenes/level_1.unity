@@ -934,7 +934,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 61936095246399772, guid: f07811afb5c2140e1ba0532256003850,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 61936095246399772, guid: f07811afb5c2140e1ba0532256003850, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f07811afb5c2140e1ba0532256003850, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &657176246
@@ -1257,7 +1264,14 @@ Prefab:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114960331960016586, guid: e5b65df10c65547eaac9ed3b4100b39a,
+        type: 2}
+      propertyPath: flower
+      value: 
+      objectReference: {fileID: 1848035017960350, guid: f07811afb5c2140e1ba0532256003850,
+        type: 2}
+    m_RemovedComponents:
+    - {fileID: 61468896030034468, guid: e5b65df10c65547eaac9ed3b4100b39a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e5b65df10c65547eaac9ed3b4100b39a, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &717847952

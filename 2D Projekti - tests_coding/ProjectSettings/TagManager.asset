@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ground
   - background1
+  - building
+  - flower
   layers:
   - Default
   - TransparentFX
