@@ -1270,6 +1270,12 @@ Prefab:
       value: 
       objectReference: {fileID: 1848035017960350, guid: f07811afb5c2140e1ba0532256003850,
         type: 2}
+    - target: {fileID: 114960331960016586, guid: e5b65df10c65547eaac9ed3b4100b39a,
+        type: 2}
+      propertyPath: flowerPuff
+      value: 
+      objectReference: {fileID: 1263225536224930, guid: 0f11866ab1fee47cc86f1eb3d0435871,
+        type: 2}
     m_RemovedComponents:
     - {fileID: 61468896030034468, guid: e5b65df10c65547eaac9ed3b4100b39a, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e5b65df10c65547eaac9ed3b4100b39a, type: 2}

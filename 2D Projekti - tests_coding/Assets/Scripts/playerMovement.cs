@@ -9,6 +9,7 @@ public class playerMovement : MonoBehaviour {
     private bool grounded;
     public Rigidbody2D rb2d;
     public int flowerCount;
+    public GameObject flowerPuff;
 
 
 
@@ -69,6 +70,7 @@ public class playerMovement : MonoBehaviour {
         if (collision.gameObject.CompareTag("flower"))
         {
             flowerCount++;
+            Instantiate(flowerPuff, transform.position, Quaternion.identity);
 
         }
 	}
