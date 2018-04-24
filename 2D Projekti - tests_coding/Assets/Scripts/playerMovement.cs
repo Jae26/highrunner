@@ -67,7 +67,7 @@ public class playerMovement : MonoBehaviour {
 	
 	private void OnTriggerExit2D(Collider2D collision)
 	{
-        if (collision.gameObject.CompareTag("flower"))
+        if (collision.gameObject.CompareTag("Flower"))
         {
             flowerCount++;
             Instantiate(flowerPuff, transform.position, Quaternion.identity);
