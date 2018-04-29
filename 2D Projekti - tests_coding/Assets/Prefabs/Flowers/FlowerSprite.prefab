@@ -90,10 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 0}
-  index: 2
-  levelName: 
-  black: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!212 &212451788971846600
 SpriteRenderer:
   m_ObjectHideFlags: 1

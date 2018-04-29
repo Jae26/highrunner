@@ -8,6 +8,8 @@ TagManager:
   - background1
   - Enemy
   - Flower
+  - building
+  - FlowerX5
   layers:
   - Default
   - TransparentFX

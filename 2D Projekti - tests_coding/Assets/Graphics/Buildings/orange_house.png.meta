@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 051689aabed42434987452770a3a2eb1
-timeCreated: 1523680803
+guid: 760cca3a2e730f2488bf97146ee5d341
+timeCreated: 1524926952
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 16_9_real_size_start_0
+    21300000: orange_house_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -82,13 +82,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16_9_real_size_start_0
+      name: orange_house_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 900
+        x: 96
+        y: 59
+        width: 340
+        height: 674
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

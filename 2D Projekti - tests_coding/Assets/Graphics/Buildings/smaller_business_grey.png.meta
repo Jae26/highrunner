@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 051689aabed42434987452770a3a2eb1
-timeCreated: 1523680803
+guid: ecf918a0372c22d489a523d01008de9a
+timeCreated: 1524928958
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 16_9_real_size_start_0
+    21300000: smaller_business_grey_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -82,13 +82,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16_9_real_size_start_0
+      name: smaller_business_grey_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 900
+        x: 328
+        y: 60
+        width: 514
+        height: 788
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

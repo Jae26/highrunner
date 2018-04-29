@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 051689aabed42434987452770a3a2eb1
-timeCreated: 1523680803
+guid: 6e98c4b8197b3dd4fa6a948ca22072e9
+timeCreated: 1524926952
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 16_9_real_size_start_0
+    21300000: general_store_0
+    21300002: general_store_1
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -82,13 +83,27 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16_9_real_size_start_0
+      name: general_store_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 900
+        x: 55
+        y: 65
+        width: 580
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: general_store_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 326
+        width: 99
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 051689aabed42434987452770a3a2eb1
-timeCreated: 1523680803
+guid: dd4f287b2b76ca8459dca7cf2bf77fd1
+timeCreated: 1524926953
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: 16_9_real_size_start_0
+    21300000: generic_low_house_0
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -82,13 +82,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16_9_real_size_start_0
+      name: generic_low_house_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1600
-        height: 900
+        x: 55
+        y: 65
+        width: 577
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
