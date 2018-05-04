@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 70906493406597628}
   m_Layer: 0
   m_Name: purple_potflower
-  m_TagString: Flower
+  m_TagString: Flowerx2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

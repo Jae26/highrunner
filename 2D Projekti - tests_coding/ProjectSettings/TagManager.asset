@@ -9,7 +9,8 @@ TagManager:
   - Enemy
   - Flower
   - building
-  - FlowerX5
+  - Flowerx2
+  - Flowerx5
   layers:
   - Default
   - TransparentFX

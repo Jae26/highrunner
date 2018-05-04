@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class ButtonsUI : MonoBehaviour
 {
 
-	//public bool GameIsPaused = false;
+	public bool GameIsPaused = false;
 	public GameObject pauseMenuUI;
 
     /*
@@ -20,14 +20,15 @@ public class ButtonsUI : MonoBehaviour
 
     void Start()
     {
+        GameIsPaused = false;
         //Time.timeScale = 1;
     }
 
     void Update()
 	{
-		if(Input.GetKeyDown(KeyCode.Escape))
-		{
-            if(Time.timeScale == 0)//GameIsPaused)
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            /*if(Time.timeScale == 0)//GameIsPaused)
 			{
                 Time.timeScale = 1;
 				Resume();
@@ -36,9 +37,22 @@ public class ButtonsUI : MonoBehaviour
 			{
                 Time.timeScale = 0;
 				Pause();
-			}
+			}*/
+
+            if (GameIsPaused)
+            {
+                Time.timeScale = 1;
+                Resume();
+            }
+            else
+            {
+                Time.timeScale = 0;
+                Pause();
+            }
+            GameIsPaused = !GameIsPaused;
         }
 	}
+    
 	
 	
 	public void MainScreen()
@@ -48,24 +62,29 @@ public class ButtonsUI : MonoBehaviour
 	
 	public void StartGame()
 	{
+        Time.timeScale = 1;
         SceneManager.LoadScene(1);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 	
 	public void Resume()
 	{
 		pauseMenuUI.SetActive(false);
 		Time.timeScale = 1f;
-		//GameIsPaused = false;
+		GameIsPaused = false;
 	}
 	
 	public void Pause()
 	{
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
-		//GameIsPaused = true;
+		GameIsPaused = true;
 	}
+
+    public void TryAgain()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 	
 	public void QuitGame()
 	{
@@ -83,3 +102,4 @@ public class ButtonsUI : MonoBehaviour
         }
     }*/
 }
+

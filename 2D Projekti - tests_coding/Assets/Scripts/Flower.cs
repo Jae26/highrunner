@@ -23,5 +23,19 @@ public class Flower : MonoBehaviour
             Destroy(pickup.gameObject);
                  
         }
+        if (pickup.tag == "Flowerx2")
+        {
+            flower+=2;
+            flowerCount.text = "" + flower;
+            Destroy(pickup.gameObject);
+
+        }
+        if (pickup.tag == "Flowerx5")
+        {
+            flower+=5;
+            flowerCount.text = "" + flower;
+            Destroy(pickup.gameObject);
+
+        }
     }
 }
