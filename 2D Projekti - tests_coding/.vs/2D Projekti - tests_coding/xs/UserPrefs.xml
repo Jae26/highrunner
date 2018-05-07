@@ -1,11 +1,13 @@
-﻿<Properties StartupConfiguration="{0BC883AF-DBC5-0D28-CFAC-7ECED6A22511}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Flower.cs">
+﻿<Properties StartupConfiguration="{2C5E41E5-F75A-20E3-B00E-533B9F11A337}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemyMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/cameraFollow.cs" Line="15" Column="1" />
       <File FileName="Assets/Scripts/Parallaxing.cs" Line="28" Column="116" />
       <File FileName="Assets/Scripts/playerMovement.cs" Line="70" Column="47" />
       <File FileName="Assets/Scripts/FlowerScript.cs" Line="20" Column="10" />
       <File FileName="Assets/Scripts/Flower.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/enemyMovement.cs" Line="33" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
