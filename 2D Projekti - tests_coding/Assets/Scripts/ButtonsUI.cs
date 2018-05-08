@@ -92,6 +92,11 @@ public class ButtonsUI : MonoBehaviour
 		Application.Quit();
 	}
 
+    public void Credits()
+    {
+        SceneManager.LoadScene(6);
+    }
+
     /*private void OnTriggerEnter2D(Collider2D enter)
     {
         if(enter.CompareTag("Player"))
