@@ -800,7 +800,7 @@ Transform:
   m_LocalScale: {x: 0.6757201, y: 0.6757201, z: 0.67572}
   m_Children: []
   m_Father: {fileID: 807424781}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!58 &94118012
 CircleCollider2D:
@@ -5498,9 +5498,9 @@ Transform:
   m_LocalPosition: {x: -10.39, y: -8.19, z: -0.921875}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1051593094}
   - {fileID: 1345506286}
   - {fileID: 94118011}
+  - {fileID: 1051593094}
   - {fileID: 1098546563}
   - {fileID: 1858024176}
   - {fileID: 1492786392}
@@ -8674,7 +8674,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4542657022082918, guid: e91568159dc90470eafc320447335407, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.95
+      value: 6.19
       objectReference: {fileID: 0}
     - target: {fileID: 4542657022082918, guid: e91568159dc90470eafc320447335407, type: 2}
       propertyPath: m_LocalPosition.z
@@ -8698,7 +8698,21 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4542657022082918, guid: e91568159dc90470eafc320447335407, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 61498390700026110, guid: e91568159dc90470eafc320447335407,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4768474380151754, guid: e91568159dc90470eafc320447335407, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 61498390700026110, guid: e91568159dc90470eafc320447335407,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.47
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e91568159dc90470eafc320447335407, type: 2}
@@ -9948,7 +9962,7 @@ Transform:
   m_LocalScale: {x: 0.67572296, y: 0.6757225, z: 0.6757225}
   m_Children: []
   m_Father: {fileID: 807424781}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!1 &1348596701
 GameObject:

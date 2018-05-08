@@ -9,7 +9,7 @@ public class enemyMovement : MonoBehaviour {
     public Transform groundDetection;
     public Transform buildingDetection;
     public float distance;
-
+    public Animator animator;
 
     private void Update()
     {
@@ -19,7 +19,6 @@ public class enemyMovement : MonoBehaviour {
         {
             if (movingRight == true)
             {
-                Debug.Log("Hitted air1");
                 transform.eulerAngles = new Vector3(0, 180, 0);
                 movingRight = false;
             }
@@ -27,7 +26,7 @@ public class enemyMovement : MonoBehaviour {
             {
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
-                Debug.Log("Hitted air2");
+
             }
         }
         RaycastHit2D builingInfo = Physics2D.Raycast(buildingDetection.position, Vector2.right, distance);
@@ -35,7 +34,6 @@ public class enemyMovement : MonoBehaviour {
         {
             if (movingRight == true)
             {
-                Debug.Log("Hitted air1");
                 transform.eulerAngles = new Vector3(0, 180, 0);
                 movingRight = false;
             }
@@ -43,7 +41,6 @@ public class enemyMovement : MonoBehaviour {
             {
                 transform.eulerAngles = new Vector3(0, 0, 0);
                 movingRight = true;
-                Debug.Log("Hitted air2");
             }
         }
     }
